@@ -56,13 +56,14 @@ export const Navbar = () => {
   return (
     <header
       ref={navContainerRef}
-      className="fixed inset-x-0 top-4 z-50 h-16 border-none transition-all duration-700 sm:inset-x-6"
+      className="fixed inset-x-0 top-4 z-50 h-16 bg-transparent backdrop-blur-lg border-b border-white/20 shadow-xl neon-border transition-all duration-700 sm:inset-x-6"
     >
       <div className="absolute top-1/2 w-full -translate-y-1/2">
         <nav className="flex size-full items-center justify-between p-4">
           <div className="flex items-center gap-7">
-            <a href="#hero" className="transition hover:opacity-75">
+            <a href="https://github.com/gopikrishnaduddi" target="_blank" rel="noopener noreferrer" className="transition hover:opacity-75 flex items-center gap-2">
               <img src="/img/logo.png" alt="Logo" className="w-10" />
+              <span className="text-white font-semibold tracking-wide text-sm hidden md:inline">Designed & Developed by Gopi Krishna</span>
             </a>
 
             <Button

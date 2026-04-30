@@ -10,7 +10,7 @@ export const NAV_ITEMS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/game-website",
+  sourceCode: "https://github.com/gopikrishnaduddi/game-website",
 } as const;
 
 export const SOCIAL_LINKS = [

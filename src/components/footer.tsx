@@ -2,10 +2,10 @@ import { SOCIAL_LINKS } from "@/constants";
 
 export const Footer = () => {
   return (
-    <footer className="w-screen bg-violet-300 py-4 text-violet-50">
+    <footer className="w-screen bg-transparent neon-footer py-4 text-white">
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-8 md:flex-row">
         <p className="text-center text-sm md:text-left">
-          &copy; <strong className="font-semibold">Nova</strong>{" "}
+            © Designed & Developed by Gopi Krishna 
           {new Date().getFullYear()}. All rights reserved.
         </p>
 
@@ -16,7 +16,7 @@ export const Footer = () => {
               href={href}
               target="_blank"
               rel="noreferrer noopener"
-              className="text-violet-50 transition-colors duration-500 ease-in-out hover:opacity-75"
+               className="text-white transition-colors duration-500 ease-in-out hover:opacity-75"
             >
               <Icon />
             </a>
