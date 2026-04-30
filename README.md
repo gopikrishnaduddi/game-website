@@ -79,6 +79,7 @@ game-website/
   |- tsconfig.app.json
   |- tsconfig.json
   |- tsconfig.node.json
+  |- vercel.json
   |- vite.config.ts
 ```
 <!--- FOLDER_STRUCTURE_END --->
